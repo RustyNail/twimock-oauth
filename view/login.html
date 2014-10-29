@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <title>Twimockログイン</title>
+  </head>
+  <body>
+    <h1>Twimockログイン</h1>
+    <form id="oauth_form" action="/twimock/oauth" method="post">
+      <input id="username_or_email" type="text" name="session[username_or_email]" placeholder="ユーザー名、またはメールアドレス"><br>
+      <input id="password" type="password" name="session[password]" placeholder="パスワード"><br>
+      <input type="submit" id="allow" value="連携アプリを認証">
+    </form>
+  </body>
+</html>
